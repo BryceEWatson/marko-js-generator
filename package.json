@@ -1,0 +1,30 @@
+{
+  "name": "marko-js-generator",
+  "version": "1.0.0",
+  "description": "A collection of generator tools for marko-js",
+  "main": "./lib/marko-generator.js",
+  "scripts": {
+    "test": "npm run mocha",
+    "mocha": "mocha --ui bdd --reporter spec ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryceewatson/marko-js-generator.git"
+  },
+  "keywords": [
+    "marko",
+    "marko-js"
+  ],
+  "author": "Bryce Watson <bryceewatson@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryceewatson/marko-js-generator/issues"
+  },
+  "homepage": "https://github.com/bryceewatson/marko-js-generator#readme",
+  "dependencies": {
+    "ejs": "^2.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
