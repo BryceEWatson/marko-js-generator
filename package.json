@@ -2,7 +2,7 @@
   "name": "marko-js-generator",
   "version": "1.0.0",
   "description": "A collection of generator tools for marko-js",
-  "main": "./lib/marko-generator.js",
+  "main": "./lib/marko-js-generator.js",
   "scripts": {
     "test": "npm run mocha",
     "mocha": "mocha --ui bdd --reporter spec ./test/"
